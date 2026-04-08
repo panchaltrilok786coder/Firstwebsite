@@ -3,154 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="google-site-verification" content="FiXq1cYVKQq4aRCxpl2w1KjTUnEbePxssxRvT_PQtb8" />
 <title>HealthyLife Pharmacy | Home</title>
 
-<style>
-
-/* ===== Base ===== */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-body {
-  background: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
-
-/* ===== Layout ===== */
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 0 15px;
-}
-
-.section {
-  background: white;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-/* ===== Header ===== */
-header {
-  background: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-/* ===== Nav ===== */
-nav {
-  background: #34495e;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-nav a {
-  color: white;
-  padding: 12px 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  background: #1abc9c;
-  border-radius: 5px;
-}
-
-/* ===== Typography ===== */
-h2 {
-  color: #2c3e50;
-  margin-bottom: 10px;
-}
-
-/* ===== Hero ===== */
-.hero {
-  text-align: center;
-}
-
-.hero p {
-  margin: 10px 0;
-}
-
-/* ===== Buttons ===== */
-.btn {
-  display: inline-block;
-  margin: 10px 5px;
-  padding: 10px 15px;
-  background: #1abc9c;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #16a085;
-}
-
-/* ===== Grid ===== */
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-/* ===== Cards ===== */
-.card {
-  background: #ecf0f1;
-  padding: 15px;
-  border-radius: 8px;
-  flex: 1 1 250px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-/* ===== Products ===== */
-.product img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-/* ===== Testimonials ===== */
-blockquote {
-  background: #ecf0f1;
-  padding: 15px;
-  margin: 10px 0;
-  border-left: 5px solid #1abc9c;
-  border-radius: 5px;
-}
-
-/* ===== Footer ===== */
-footer {
-  background: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 600px) {
-  nav a {
-    display: block;
-    margin: 5px 0;
-  }
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -161,124 +16,80 @@ footer {
 </header>
 
 <nav>
-  <a href="index.html">Home</a>
+  <a href="index.html" aria-current="page">Home</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
 </nav>
 
-<!-- HERO -->
-<section class="section container hero">
+<section class="hero container">
   <h2>Your Health, Our Priority</h2>
-  <p>Providing quality medicines, healthcare products, and trusted support for your everyday needs.</p>
+  <p>Providing quality medicines and trusted healthcare support.</p>
   <a href="contact.html" class="btn">Contact Us</a>
   <a href="about.html" class="btn">Learn More</a>
 </section>
 
-<!-- SERVICES -->
-<section class="section container">
+<section class="container">
   <h2>Our Services</h2>
   <div class="grid">
-
     <div class="card">
       <h3>Prescription Medicines</h3>
-      <p>Genuine medicines provided with proper guidance from experienced pharmacists.</p>
+      <p>Safe and genuine medicines with expert guidance.</p>
     </div>
-
     <div class="card">
       <h3>Health Products</h3>
-      <p>Wide range of over-the-counter medicines and daily healthcare essentials.</p>
+      <p>Wide range of daily healthcare essentials.</p>
     </div>
-
     <div class="card">
-      <h3>Vitamins & Supplements</h3>
-      <p>Support your health with high-quality nutritional supplements.</p>
+      <h3>Supplements</h3>
+      <p>Boost your health with quality vitamins.</p>
     </div>
-
     <div class="card">
       <h3>Home Delivery</h3>
-      <p>Convenient and fast delivery service right to your doorstep.</p>
+      <p>Fast and reliable doorstep delivery.</p>
     </div>
-
   </div>
 </section>
 
-<!-- PRODUCTS -->
-<section class="section container">
+<section class="container">
   <h2>Featured Products</h2>
   <div class="grid">
-
     <div class="card product">
       <img src="https://source.unsplash.com/300x200/?medicine" alt="">
       <h3>Medicines</h3>
-      <p>Trusted prescription and OTC medicines.</p>
     </div>
-
     <div class="card product">
       <img src="https://source.unsplash.com/300x200/?vitamins" alt="">
       <h3>Vitamins</h3>
-      <p>Daily supplements for better health.</p>
     </div>
-
     <div class="card product">
       <img src="https://source.unsplash.com/300x200/?first-aid" alt="">
       <h3>First Aid</h3>
-      <p>Essential products for emergency care.</p>
     </div>
-
     <div class="card product">
       <img src="https://source.unsplash.com/300x200/?skincare" alt="">
       <h3>Personal Care</h3>
-      <p>Hygiene and skincare products for daily use.</p>
     </div>
-
   </div>
 </section>
 
-<!-- WHY CHOOSE US -->
-<section class="section container">
-  <h2>Why Choose HealthyLife Pharmacy</h2>
+<section class="container">
+  <h2>Why Choose Us</h2>
   <div class="grid">
-
-    <div class="card">
-      <h3>Experienced Since 2010</h3>
-      <p>Serving the community with trust and care for over 16 years.</p>
-    </div>
-
-    <div class="card">
-      <h3>Qualified Pharmacists</h3>
-      <p>Professional guidance to help you choose the right products.</p>
-    </div>
-
-    <div class="card">
-      <h3>Affordable Prices</h3>
-      <p>Quality healthcare products at reasonable rates.</p>
-    </div>
-
-    <div class="card">
-      <h3>Reliable Service</h3>
-      <p>Consistent availability and quick response to customer needs.</p>
-    </div>
-
+    <div class="card"><h3>Since 2010</h3></div>
+    <div class="card"><h3>Expert Pharmacists</h3></div>
+    <div class="card"><h3>Affordable</h3></div>
+    <div class="card"><h3>Trusted Service</h3></div>
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="section container">
+<section class="container">
   <h2>Customer Reviews</h2>
-  <blockquote>"Very reliable pharmacy with excellent service!" – [Customer Name]</blockquote>
-  <blockquote>"Helpful staff and quick delivery every time." – [Customer Name]</blockquote>
-</section>
-
-<!-- CONTACT PREVIEW -->
-<section class="section container">
-  <h2>Visit or Contact Us</h2>
-  <p><strong>Phone:</strong> +91 98765 43210</p>
-  <p><strong>Address:</strong> 123 Main Street, Mumbai</p>
-  <a href="contact.html" class="btn">Get in Touch</a>
+  <blockquote>"Very reliable pharmacy!"</blockquote>
+  <blockquote>"Quick delivery and helpful staff."</blockquote>
 </section>
 
 <footer>
-  &copy; 2026 HealthyLife Pharmacy. All rights reserved.
+  &copy; 2026 HealthyLife Pharmacy
 </footer>
 
 </body>
