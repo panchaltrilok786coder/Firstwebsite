@@ -3,190 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HealthyLife Pharmacy | Contact Us – Mumbai</title>
+<title>Contact | HealthyLife Pharmacy</title>
 
-<meta name="description" content="Contact HealthyLife Pharmacy in Mumbai for medicines, consultations, and healthcare products. Visit us or reach out today.">
+<link rel="stylesheet" href="style.css">
 
-<!-- Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<style>
-* { box-sizing:border-box; margin:0; padding:0; font-family: Arial, sans-serif;}
-body { background:#f4f4f4; color:#333; line-height:1.6; padding-bottom:100px;}
-
-header { background:#2c3e50; color:white; padding:20px; text-align:center;}
-header h1 { font-size:2em;}
-
-nav { background:#34495e; display:flex; justify-content:center; flex-wrap:wrap;}
-nav a { color:white; padding:12px 15px; text-decoration:none; font-weight:bold;}
-nav a:hover { background:#1abc9c; border-radius:5px;}
-
-section { background:white; margin:15px auto; padding:20px; border-radius:8px; max-width:900px;}
-h2 { margin-bottom:10px; color:#1abc9c;}
-
-.card { background:white; padding:20px; border-radius:8px; margin:15px 0; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
-
-.contact-info p { margin:8px 0;}
-.contact-info a { color:#2980b9; text-decoration:none;}
-.contact-info a:hover { text-decoration:underline;}
-
-/* Social Links */
-.social-links {
-  display:flex;
-  gap:15px;
-  margin-top:10px;
-  flex-wrap:wrap;
-}
-.social-links a {
-  background:#34495e;
-  color:white;
-  padding:8px 14px;
-  border-radius:20px;
-  text-decoration:none;
-  font-size:14px;
-  transition:0.3s;
-}
-.social-links a:hover {
-  background:#1abc9c;
-}
-
-/* Form */
-form { display:flex; flex-direction:column; gap:10px;}
-input, textarea {
-  padding:10px;
-  border:1px solid #ccc;
-  border-radius:5px;
-}
-button {
-  background:#1abc9c;
-  color:white;
-  padding:10px;
-  border:none;
-  border-radius:5px;
-  cursor:pointer;
-  font-weight:bold;
-}
-button:hover { background:#16a085;}
-
-iframe { width:100%; border-radius:8px; margin-top:10px;}
-
-/* Footer */
-footer {
-  background:#2c3e50;
-  color:white;
-  text-align:center;
-  padding:20px;
-  position:fixed;
-  bottom:0;
-  width:100%;
-}
-.footer-links {
-  margin-top:10px;
-}
-.footer-links a {
-  color:#1abc9c;
-  margin:0 10px;
-  text-decoration:none;
-}
-.footer-links a:hover { text-decoration:underline;}
-
-@media(max-width:600px){
-  nav a { display:block; margin:5px 0; }
-}
-</style>
 </head>
 
 <body>
 
 <header>
-<h1>HealthyLife Pharmacy</h1>
+  <h1>HealthyLife Pharmacy</h1>
 </header>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact.html" aria-current="page">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html" aria-current="page">Contact</a>
 </nav>
 
-<main>
-
-<!-- Contact Info -->
 <section>
-<h2>Contact Us</h2>
-<div class="card contact-info">
-<p><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
-<p><strong>Email:</strong> <a href="mailto:info@healthylifepharmacy.com">info@healthylifepharmacy.com</a></p>
-<p><strong>Address:</strong> 123 Main Street, Mumbai, India</p>
-
-<div class="social-links">
-  <a href="https://instagram.com/healthylifepharmacy" target="_blank">
-    <i class="fab fa-instagram"></i> Instagram
-  </a>
-  <a href="#">
-    <i class="fab fa-facebook"></i> Facebook
-  </a>
-  <a href="#">
-    <i class="fab fa-twitter"></i> Twitter
-  </a>
-  <a href="#">
-    <i class="fab fa-whatsapp"></i> WhatsApp
-  </a>
-</div>
-
-</div>
+  <h2>Contact Info</h2>
+  <div class="card">
+    <p>📞 +91 98765 43210</p>
+    <p>📍 Mumbai</p>
+  </div>
 </section>
 
-<!-- Contact Form -->
 <section>
-<h2>Send Us a Message</h2>
-<div class="card">
-<form>
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Your Email" required>
-<textarea rows="5" placeholder="Your Message" required></textarea>
-<button type="submit">Send Message</button>
-</form>
-<p><em>Note: Connect this form to backend (Formspree / Netlify) to make it functional.</em></p>
-</div>
+  <h2>Send Message</h2>
+  <div class="card">
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button>Send</button>
+    </form>
+  </div>
 </section>
 
-<!-- Business Hours -->
 <section>
-<h2>Business Hours</h2>
-<div class="card">
-<p>Monday – Saturday: 9:00 AM – 9:00 PM</p>
-<p>Sunday: 10:00 AM – 6:00 PM</p>
-<p><strong>Emergency support available on call.</strong></p>
-</div>
+  <h2>Follow Us</h2>
+  <div class="social-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+  </div>
 </section>
 
-<!-- Map -->
-<section>
-<h2>Find Us on Map</h2>
-<div class="card">
-<iframe 
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.123456789!2d72.8777!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63abc123456%3A0xabcdef123456!2sHealthyLife+Pharmacy!5e0!3m2!1sen!2sin!4v1234567890" 
-height="250" loading="lazy"></iframe>
-</div>
-</section>
-
-</main>
-
-<!-- Footer -->
 <footer>
-<p>&copy; 2026 HealthyLife Pharmacy. All rights reserved.</p>
-
-<div class="footer-links">
-  <a href="#">Privacy Policy</a>
-  <a href="#">Terms</a>
-</div>
-
-<div class="social-links" style="justify-content:center;">
-  <a href="#"><i class="fab fa-instagram"></i></a>
-  <a href="#"><i class="fab fa-facebook"></i></a>
-  <a href="#"><i class="fab fa-twitter"></i></a>
-</div>
-
+  &copy; 2026 HealthyLife Pharmacy
 </footer>
 
 </body>
